@@ -45,7 +45,6 @@ const reducer = (state = initialState, action) => {
             return {...state, text: action.payload};
         default:
             return state;
-            // xfdfs
     }
 }
 export const store = createStore(reducer);
